@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d7ca28c-1bc1-47f7-a95d-2c5391367cba" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hash_p1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_p1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pcd2018/hash_p1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pcd2018/hash_p1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pcd2018/sequential_crack_p2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pcd2018/sequential_crack_p2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash_p1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hash_p1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sequential_crack_p2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sequential_crack_p2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hash_p1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hash_p1.java">
+      <file leaf-file-name="Hash_p1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Hash_p1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="119">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,15 +30,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sequential_crack_p2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sequential_crack_p2.java">
+      <file leaf-file-name="Sequential_crack_p2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sequential_crack_p2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-458">
-              <caret line="60" column="35" lean-forward="true" selection-start-line="59" selection-end-line="60" selection-end-column="35" />
+            <state relative-caret-position="134">
+              <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2595#2596#0" expanded="true" />
-                <element signature="e#2671#2672#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,6 +62,9 @@
         <option value="$PROJECT_DIR$/src/BruteCrack.java" />
         <option value="$PROJECT_DIR$/src/hash_p1.java" />
         <option value="$PROJECT_DIR$/src/sequential_crack_p2.java" />
+        <option value="$PROJECT_DIR$/src/result.java" />
+        <option value="$PROJECT_DIR$/src/Result.java" />
+        <option value="$PROJECT_DIR$/src/Sequential_crack_p2.java" />
       </list>
     </option>
   </component>
@@ -72,10 +75,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1376" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -126,6 +129,10 @@
       <option name="MAIN_CLASS_NAME" value="BruteCrack" />
       <module name="pcd2018" />
     </configuration>
+    <configuration name="Hash_p1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hash_p1" />
+      <module name="pcd2018" />
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="pcd2018" />
@@ -133,12 +140,8 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
-    <configuration name="hash_p1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hash_p1" />
-      <module name="pcd2018" />
-    </configuration>
-    <configuration name="sequential_crack_p2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sequential_crack_p2" />
+    <configuration name="Sequential_crack_p2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sequential_crack_p2" />
       <module name="pcd2018" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -158,14 +161,14 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.hash_p1" />
-      <item itemvalue="Application.sequential_crack_p2" />
+      <item itemvalue="Application.Hash_p1" />
+      <item itemvalue="Application.Sequential_crack_p2" />
       <item itemvalue="Application.BruteCrack" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.sequential_crack_p2" />
-        <item itemvalue="Application.hash_p1" />
+        <item itemvalue="Application.Sequential_crack_p2" />
+        <item itemvalue="Application.Hash_p1" />
         <item itemvalue="Application.BruteCrack" />
         <item itemvalue="Application.Main" />
       </list>
@@ -183,31 +186,31 @@
       <updated>1527538763150</updated>
       <workItem from="1527538766333" duration="687000" />
       <workItem from="1527539598974" duration="6057000" />
-      <workItem from="1527612179272" duration="15073000" />
+      <workItem from="1527612179272" duration="22295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21817000" />
+    <option name="totallyTimeSpent" value="29039000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="1912" y="-8" width="1376" height="784" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3288889" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.3288889" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27107653" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37629628" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2775616" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119791664" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2602941" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -230,7 +233,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/hash_p1.java">
+    <entry file="file://$PROJECT_DIR$/src/Hash_p1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
@@ -240,19 +243,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sequential_crack_p2.java">
+    <entry file="file://$PROJECT_DIR$/src/Sequential_crack_p2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2595#2596#0" expanded="true" />
-            <element signature="e#2671#2672#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hash_p1.java">
+    <entry file="file://$PROJECT_DIR$/src/Hash_p1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
@@ -273,24 +274,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hash_p1.java">
+    <entry file="file://$PROJECT_DIR$/src/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hash_p1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sequential_crack_p2.java">
+    <entry file="file://$PROJECT_DIR$/src/Sequential_crack_p2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-458">
-          <caret line="60" column="35" lean-forward="true" selection-start-line="59" selection-end-line="60" selection-end-column="35" />
+        <state relative-caret-position="134">
+          <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2595#2596#0" expanded="true" />
-            <element signature="e#2671#2672#0" expanded="true" />
           </folding>
         </state>
       </provider>

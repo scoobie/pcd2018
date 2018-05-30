@@ -2,7 +2,7 @@ import java.nio.charset.StandardCharsets;
         import java.security.MessageDigest;
         import java.security.NoSuchAlgorithmException;
 
-public class hash_p1 {
+public class Hash_p1 {
 
     public static String stringHexHash( String texto) throws NoSuchAlgorithmException {
         MessageDigest digest = MessageDigest.getInstance("SHA-512");
@@ -16,7 +16,7 @@ public class hash_p1 {
     }
 
     public static void main(String[] args) throws InterruptedException, NoSuchAlgorithmException {
-        String[] palavra= {"zoomi","zigzag","zirconium"};
+        String[] palavra= {"zoom","zigzag","zirconium"};
 
         for(int i=0;i<palavra.length;i++) {
             String hash=stringHexHash(palavra[i]);
