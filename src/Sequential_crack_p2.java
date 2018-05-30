@@ -19,7 +19,8 @@ public class Sequential_crack_p2 {
         max_num_chars=length;
         boolean done = false;
         String guess_hash;
-        int counter=0;
+        int counter=1;
+        boolean found=false;
 
         for(int num_chars = 0; num_chars < max_num_chars && !done; num_chars++)
         {
@@ -31,19 +32,26 @@ public class Sequential_crack_p2 {
 
             while(canIncrementGuess() && !done)
             {
-                incrementGuess();
                 counter++;
+                incrementGuess();
                 md.reset();
                 md.update(new String(guess).getBytes());
                 guess_hash = hashToString(md.digest());
                 if(hash.equals(guess_hash))
                 {
                     done = true;
+                    found=true;
                 }
             }
         }
         String guessWord=new String(guess);
-        return (guessWord+" "+counter);
+        if(found){
+            return (guessWord+":"+counter);
+        }
+        else{
+            return ("Word not found"+":"+counter);
+        }
+
     }
 
     protected boolean canIncrementGuess()
@@ -99,7 +107,7 @@ public class Sequential_crack_p2 {
             long start=System.nanoTime();
             answer=sc.crack(hashWord,wordSize);
             long end=System.nanoTime();
-            String [] wordAnswer=answer.split(" ");
+            String [] wordAnswer=answer.split(":");
             System.out.println("The word is: "+ wordAnswer[0]);
             System.out.println("Number of words tested: "+wordAnswer[1]);
             System.out.println("Processing Time: "+((end-start)/1000000) +" Milliseconds");
