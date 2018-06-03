@@ -16,7 +16,7 @@ public class Hash_p1 {
     }
 
     public static void main(String[] args) throws InterruptedException, NoSuchAlgorithmException {
-        String[] palavra= {"a","zoom","zigzag","zirconium"};
+        String[] palavra= {"mzzzz","naaab","zoom","zigzag","zirconium"};
 
         for(int i=0;i<palavra.length;i++) {
             String hash=stringHexHash(palavra[i]);

@@ -35,7 +35,7 @@ class Cracker implements Runnable {
             this.maxFirstChar = (byte) (MIN_CHAR_VALUE + chunkSize * (chunkNumber + 1) - 1);
         }
 
-      System.out.println("Start tread for : " + (char)minFirstChar + " .. " + (char)maxFirstChar);
+      //System.out.println("Start tread for : " + (char)minFirstChar + " .. " + (char)maxFirstChar);
 
         buffer = new byte[1];
         initBuffer();
@@ -152,14 +152,15 @@ class Result {
 
 
 public class Parallel_p3 {
-    private static final int NUMBER_OF_THREADS = 4;
+    //private static final int NUMBER_OF_THREADS = 3;
 
 
-    public Result crack(String hash, int length) {
-        Thread[] threads = new Thread[NUMBER_OF_THREADS];
+    public Result crack(String hash, int length, int threadNr) {
+       // Thread[] threads = new Thread[NUMBER_OF_THREADS];
+        Thread[] threads = new Thread[threadNr];
         Result result = new Result();
         for (int i = 0; i < threads.length; i++) {
-            threads[i] = new Thread(new Cracker(i, NUMBER_OF_THREADS, length, result, hash));
+            threads[i] = new Thread(new Cracker(i, threadNr, length, result, hash));
             threads[i].start();
         }
 
@@ -180,12 +181,14 @@ public class Parallel_p3 {
         String hashWord = scanner.next();
         System.out.println("what is the maximum length of the word to be found? :");
         int wordSize = scanner.nextInt();
+        System.out.println("Introduce number of threads");
+        int threads = scanner.nextInt();
         scanner.close();
 
         Parallel_p3 sc = new Parallel_p3();
 
         long start = System.nanoTime();
-        Result result = sc.crack(hashWord, wordSize);
+        Result result = sc.crack(hashWord, wordSize,threads);
         long end = System.nanoTime();
         System.out.println("The word is: " + result.getWord());
         System.out.println("Number of words tested: " + result.getCount());
