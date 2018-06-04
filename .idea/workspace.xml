@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d7ca28c-1bc1-47f7-a95d-2c5391367cba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pcd2018/Cracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pcd2018/Cracker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pcd2018/Parallel_p3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pcd2018/Parallel_p3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pcd2018/hash_p1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pcd2018/hash_p1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hash_p1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hash_p1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Parallel_p3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parallel_p3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sequential_crack_p2.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +19,8 @@
       <file leaf-file-name="Hash_p1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Hash_p1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="306">
+              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,32 +28,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sequential_crack_p2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sequential_crack_p2.java">
+      <file leaf-file-name="Sequential_p2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sequential_p2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="84" column="49" lean-forward="true" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
+            <state relative-caret-position="2136">
+              <caret line="134" column="32" selection-start-line="134" selection-start-column="32" selection-end-line="134" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2145#2146#0" expanded="true" />
+                <element signature="e#2201#2202#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="61" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parallel_p3.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Parallel_p3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Parallel_p3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="49" column="26" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="26" />
+            <state relative-caret-position="663">
+              <caret line="116" column="37" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,11 +82,12 @@
         <option value="$PROJECT_DIR$/src/Cracker.java" />
         <option value="$PROJECT_DIR$/src/BruteCrack.java" />
         <option value="$PROJECT_DIR$/src/Seq.java" />
-        <option value="$PROJECT_DIR$/src/Sequential_p2.java" />
-        <option value="$PROJECT_DIR$/src/Sequential_crack_p2.java" />
-        <option value="$PROJECT_DIR$/src/Hash_p1.java" />
         <option value="$PROJECT_DIR$/src/test.java" />
         <option value="$PROJECT_DIR$/src/Parallel_p3.java" />
+        <option value="$PROJECT_DIR$/src/Sequential_crack_p2.java" />
+        <option value="$PROJECT_DIR$/src/Hash_p1.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/Sequential_p2.java" />
       </list>
     </option>
   </component>
@@ -109,7 +99,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-335" />
-    <option name="y" value="11" />
+    <option name="y" value="10" />
     <option name="width" value="2425" />
     <option name="height" value="1375" />
   </component>
@@ -120,6 +110,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,8 +128,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,10 +148,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Hash_p1">
-    <configuration name="BruteCrack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BruteCrack" />
-      <module name="pcd2018" />
-    </configuration>
     <configuration name="Hash_p1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hash_p1" />
       <module name="pcd2018" />
@@ -172,6 +158,10 @@
     </configuration>
     <configuration name="Sequential_crack_p2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sequential_crack_p2" />
+      <module name="pcd2018" />
+    </configuration>
+    <configuration name="Sequential_p2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sequential_p2" />
       <module name="pcd2018" />
     </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -196,17 +186,17 @@
     <list>
       <item itemvalue="Application.Hash_p1" />
       <item itemvalue="Application.Sequential_crack_p2" />
-      <item itemvalue="Application.BruteCrack" />
       <item itemvalue="Application.Parallel_p3" />
       <item itemvalue="Application.test" />
+      <item itemvalue="Application.Sequential_p2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Hash_p1" />
+        <item itemvalue="Application.Sequential_p2" />
         <item itemvalue="Application.Parallel_p3" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Sequential_crack_p2" />
-        <item itemvalue="Application.BruteCrack" />
       </list>
     </recent_temporary>
   </component>
@@ -229,14 +219,16 @@
       <workItem from="1527862337005" duration="4941000" />
       <workItem from="1527873289438" duration="894000" />
       <workItem from="1527877030713" duration="4932000" />
+      <workItem from="1528035057188" duration="235000" />
+      <workItem from="1528115242412" duration="19038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92657000" />
+    <option name="totallyTimeSpent" value="111930000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -249,11 +241,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4072633" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30220494" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.24124514" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28841147" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36132812" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -276,6 +268,67 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Hash_p1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sequential_crack_p2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parallel_p3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hash_p1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sequential_crack_p2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="49" lean-forward="true" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sequential_p2.java" />
+    <entry file="file://$PROJECT_DIR$/src/Parallel_p3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Hash_p1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -484,39 +537,44 @@
     <entry file="file://$PROJECT_DIR$/src/Result.java" />
     <entry file="file://$PROJECT_DIR$/src/BruteCrack.java" />
     <entry file="file://$PROJECT_DIR$/src/Seq.java" />
-    <entry file="file://$PROJECT_DIR$/src/Hash_p1.java">
+    <entry file="file://$PROJECT_DIR$/src/Parallel_p3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="663">
+          <caret line="116" column="37" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sequential_crack_p2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="84" column="49" lean-forward="true" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
+        <state relative-caret-position="221">
+          <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parallel_p3.java">
+    <entry file="file://$PROJECT_DIR$/src/Hash_p1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="26" />
+        <state relative-caret-position="306">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sequential_p2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2136">
+          <caret line="134" column="32" selection-start-line="134" selection-start-column="32" selection-end-line="134" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2145#2146#0" expanded="true" />
+            <element signature="e#2201#2202#0" expanded="true" />
           </folding>
         </state>
       </provider>
